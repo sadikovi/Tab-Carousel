@@ -1,0 +1,35 @@
+body {
+    margin: 5px;
+    min-width: 240px;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin: 14px auto;
+}
+
+.divider {
+    border-top: 1px solid #e1e1e8;
+}
+
+.inline {
+    margin: 0 2px;
+    display: inline;
+}
+
+kbd {
+    margin: 0 2px;
+    color: #fff;
+    background-color: #333;
+    font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+    border-radius: 3px;
+    padding: 2px 4px;
+}
+
+span.kbdwrap {
+    background-color: #f7f7f9;
+    border: 1px solid #e1e1e8;
+    border-radius: 3px;
+    padding: 4px 2px;
+}

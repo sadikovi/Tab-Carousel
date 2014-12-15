@@ -1,0 +1,40 @@
+{
+    "manifest_version": 2,
+    "name": "Tab Carousel",
+    "description": "Go through tabs with hotkeys",
+    "version": "1.0.2",
+    "icons": {
+        "48": "images/icon48.png",
+        "64": "images/icon64.png"
+    },
+    "browser_action": {
+        "default_icon": {
+            "48": "images/icon48.png",
+            "64": "images/icon64.png"
+        },
+        "default_title": "Tab Carousel",
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "scripts":[
+            "background.js"
+        ]
+    },
+    "offline_enabled": true,
+    "commands": {
+        "toggle-tab-left": {
+            "suggested_key": {
+                "default": "Ctrl+J",
+                "mac": "Command+J"
+            },
+            "description": "Toggle tab left"
+        },
+        "toggle-tab-right": {
+            "suggested_key": {
+                "default": "Ctrl+K",
+                "mac": "Command+K"
+            },
+            "description": "Toggle tab right"
+        }
+    }
+}
